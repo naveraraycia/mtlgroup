@@ -1,0 +1,737 @@
+/* FONT STYLES */
+
+.open-sans-reg {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.open-sans-semi {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.open-sans-bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.mont-reg {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.mont-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* COLOR PALETTE */
+.cust-blue-text {
+    color: #387CA3;
+}
+
+.cust-blue {
+    background-color: #387CA3;
+}
+
+.cust-grey-text {
+    color: #8A9D8A;
+}
+
+.cust-grey {
+    background-color: #8A9D8A;
+}
+
+.cust-black-text {
+    color: #565453;
+}
+
+.cust-black {
+    background-color: #565453;
+}
+
+.cust-green-text {
+    color: #85E752;
+}
+
+.cust-green {
+    background-color: #85E752;
+}
+
+.cust-leaf-text {
+    color: #E7F1E7;
+}
+
+.cust-leaf {
+    background-color: #E7F1E7;
+}
+
+.cust-leaf-darker-text {
+    color: #8A9D8A;
+}
+
+.cust-leaf-darker {
+    background-color: #8A9D8A;
+}
+
+.cust-dark-green-text {
+    color: #607760;
+}
+
+.cust-dark-green {
+    background-color: #607760;
+}
+
+/* NAVBAR PART */
+.container {
+    width: 83%!important;
+}
+
+nav .button-collapse {
+    color: #387CA3;
+    position: relative;
+    bottom: 3px!important;
+}
+
+nav li a {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    position: relative;
+    bottom: 3px;
+}
+
+nav ul a {
+    padding: 0 35px!important;
+}
+
+nav ul a:hover {
+    background-color: transparent!important;
+    font-weight: 700;
+    font-size: 18px!important;
+    color: #387CA3!important;
+    transition: .3s;
+}
+
+nav {
+    border: 5px solid #EFEFEF;
+}
+
+/* LOGO PART */
+.image-logo img {
+
+    width: 130px;
+}
+
+.image-logo p {
+    font-size: 24px;
+}
+
+.landing-div{
+    display: grid;
+    grid-template: 300px / 100%;
+
+}
+
+.landing-img {
+        position: relative;
+        background: url(../img/sealo-landing.jpg);
+        background-size: cover;
+        background-position: center;  
+}
+
+.about-sec .col.m4 p.mont-bold{
+    font-size: 24px!important;
+}
+
+.about-sec .col.m4 p.open-sans-reg {
+    font-size: 16px;
+    line-height: 212.2%;
+}
+
+.about-p {
+    margin-top: 30px!important;
+}
+
+.about-sec .col.m8 .cust-black-text span{
+    font-size: 20px;
+}
+
+.about-sec .col.m8 .cust-black-text {
+    font-size: 32px;
+}
+
+.second-p{
+    font-size: 18px!important;
+    line-height: 212.2%;
+}
+
+.second-p span{
+    font-size: 30px!important;
+}
+
+.about-sec .col.m8 {
+    padding-left: 5rem!important;
+}
+
+.about-sec {
+    margin-top: 10rem;
+    background-color: #F3F3F3;
+    padding-top: 6rem!important;
+    padding-bottom: 15rem!important;
+    z-index: -1;
+}
+
+/* SECTION: PRODUCTS */
+.product-div {
+    display: grid;
+    grid-template: 250px 0px / 300px 600px ;
+}
+
+.product-sec .row {
+    bottom: 10rem!important;
+}
+
+.product-photo {
+
+        position: relative;
+        background: url(../img/sealo-product.jpg);
+        background-size: cover;
+        background-position: center;  
+
+}
+
+.product-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-title p {
+    font-size: 32px;
+}
+
+.product-title span {
+    font-size: 24px;
+}
+
+.product-sec {
+    height: 100px;
+}
+
+
+.invisib-row {
+    display: none;
+}
+
+/* SECTION: PRODUCT LIST */
+.product-list-sec {
+    margin-top: 5rem;
+}
+
+.product-list-sec li {
+    display: flex;
+    padding-left: 4rem;
+}
+
+.product-list-sec p, .product-list-sec i {
+    align-self: center;
+}
+
+.product-list-sec p {
+    margin-left: 1rem;
+    position: relative;
+    top: 1px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    
+}
+
+/* SECITON: BUSINESS PARTNERS */
+.partner-sec {
+    margin-top: 2rem;
+}
+
+.partner-sec .partner-title p {
+    font-size: 32px;
+}
+
+.partner-sec .partner-title span {
+    font-size: 24px;
+}
+
+.hidden-tr {
+    display: none;
+}
+
+.th-main {
+    display: flex;
+
+
+}
+
+th i, .table-p {
+    align-self: center;
+    justify-self: center;
+}
+
+.table-p {
+    margin-left: 1rem;
+}
+
+th i {
+    margin-left: 2rem;
+}
+
+.partner-cube {
+    display: grid;
+    grid-template: 800px / 100%;
+}
+
+.partner-bg {
+    
+    position: relative;
+        background: url(../img/sealo-partners.jpg);
+        background-size: cover;
+        background-position: center;  
+
+}
+
+/* SECTION: CONTACT DETAILS */
+
+.contact-sec .cust-leaf {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-sec .cust-leaf p, .contact-sec .cust-leaf i {
+    text-align: center;
+}
+
+.contact-sec .cust-leaf .mont-bold {
+    font-size: 24px;
+}
+
+
+.cust-leaf i {
+    font-size: 5.5rem;
+}
+
+.contact-sec .card-panel {
+    padding: 3.5rem;
+}
+
+.contact-sec .cust-leaf.last .open-sans-semi {
+    margin-bottom: 0px!important;
+    margin-top: 9px!important;
+}
+
+.contact-sec .card-panel {
+    height: 450px;
+}
+
+.contact-sec {
+    margin-top: 5rem;
+}
+
+
+/* SECTION: GOOGLE MAP */
+.section-map {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+#googlemap {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+/* FIXED BUTTON */
+
+.action {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: #85E752;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.action:hover {
+    background-color: #7BBF57;
+    transition: 0.3s;
+}
+
+.action span {
+    position: relative;
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em!important;
+    transition: 0.3s ease-in-out ;
+}
+
+.action.present span {
+    transform: rotate(135deg);
+    z-index: 90!important;
+}
+
+.action ul {
+    position: absolute;
+    bottom: 55px;
+    background-color: #f7f7f7;
+    min-width: 250px;
+    right: 0rem;
+    z-index: 5;
+    padding: 20px;
+    border-radius: 10px;
+    visibility: hidden;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.action ul li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.action ul li:hover {
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+
+.action.present ul {
+    bottom: 65px;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s;
+
+}
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width:1110px){
+    nav ul a {
+        padding: 0 15px!important;
+    }
+}
+
+@media only screen and (max-width:1025px){
+    .second-p{
+        font-size: 16px!important;
+    
+    }
+    
+    .second-p span{
+        font-size: 28px!important;
+    }
+
+
+    .about-sec .col.m4 p.open-sans-reg {
+        font-size: 14px;
+
+    }
+}
+
+@media only screen and (max-width:1010px){
+.product-div {
+    display: grid;
+    grid-template: 250px 0px / 250px 400px ;
+}
+.product-title p {
+    font-size: 26px;
+}
+
+.product-title span {
+    font-size: 20px;
+}
+
+}
+
+@media only screen and (max-width:992.5px){
+
+
+.hidden-tr th {
+    color: #387CA3!important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.partner-sec .col.m8, .partner-sec .col.m3 {
+    width: 100%!important;
+}
+
+.partner-sec .col.m3 {
+    display: none;
+}
+}
+
+@media only screen and (max-width:850px){
+    .contact-sec .col.m4 {
+        width: 100%;
+    }
+
+    .contact-sec .card-panel {
+        height: auto;
+    }
+
+   
+
+}
+@media only screen and (max-width:790px){
+    .about-sec .col.m4, .about-sec .col.m8{
+        width: 100%!important;
+    }
+
+    .about-sec .col.m8 {
+        padding-left: 2rem!important;
+        margin-top: 3.5rem;
+    }
+
+    .about-sec {
+        margin-top: 10rem;
+    }
+
+    .first-about-p p, .second-about-p p {
+        text-align: center;
+    }
+
+    .about-sec .col.m8 p.mont-bold {
+        text-align: center;
+    }
+
+    .partner-title {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:715px){
+    .product-div {
+        display: grid;
+        grid-template: 200px 0px / 200px 300px ;
+    }
+    .product-title p {
+        font-size: 23px;
+    }
+    
+    .product-title span {
+        font-size: 18px;
+    }
+
+    .product-list-sec li {
+        padding-left: 1rem;
+    }
+
+}
+
+@media only screen and (max-width:660px){
+    .image-logo p {
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    .product-div {
+        display: grid;
+        grid-template: 170px 0px / 200px 250px ;
+    }
+    .product-title p {
+        font-size: 20px;
+    }
+    
+    .product-title span {
+        font-size: 16px;
+    }
+
+    .product-list-sec {
+        margin-top: 0px!important;
+    }
+
+    .product-list-sec li {
+        padding-left: 5rem;
+        padding-right: 3rem;
+    }
+
+    .partner-sec .partner-title p {
+        font-size: 28px;
+    }
+
+    .partner-sec .partner-title span {
+        font-size: 20px;
+    }
+
+}
+
+
+
+@media only screen and (max-width:490px){
+    .image-logo p {
+        font-size: 16px;
+    }
+
+    .about-sec {
+        margin-top: 10rem!important;
+    }
+
+    .image-logo img {
+        width: 110px;
+    }
+
+    .landing-div {
+        grid-template: 200px / 100%!important;
+    }
+
+    .about-sec .col.m8 .cust-black-text {
+        font-size: 28px;
+    }
+
+    .about-sec .col.m8 .cust-black-text span {
+        font-size: 18px;
+    }
+
+    .second-p span {
+        font-size: 20px!important;
+    }
+
+    .visib-row {
+        display: none!important;
+    }
+
+    .invisib-row {
+        display: block;
+    }
+
+    
+
+    .product-sec .col.s5 {
+        background-color: white!important;
+        height: 170px!important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .invisib-div-2 {
+        height: 170px!important;
+        position: relative;
+        background: url(../img/sealo-product.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .invisib-row .row .col.s5, .invisib-row .row .col.s7 {
+        padding: 0px 0px!important;
+    }
+
+    .invisib-div-1 p span {
+        font-size: 16px;
+    }
+
+    .invisib-div-1 p {
+        font-size: 20px;
+    }
+
+    .about-sec {
+        padding-bottom: 6rem!important;
+    }
+
+    .first-list-col {
+        margin-top: 4rem!important;
+    }
+
+    .product-list-sec p {
+        font-size: 14px;
+    }
+
+    .partner-sec .partner-title p {
+        font-size: 23px;
+    }
+
+    .partner-sec .partner-title span {
+        font-size: 18px;
+    }
+
+    .btp{
+        display: none;
+    }
+
+
+
+}
+
+@media only screen and (max-width:430px){
+    .product-list-sec li {
+        padding-left: 2rem;
+    }
+}
+
+@media only screen and (max-width:390px){
+    .ft-title {
+        font-size: 12px;
+    }
+    }
+
+@media only screen and (max-width:380px){
+    .about-sec .col.m4 p.open-sans-reg {
+        font-size: 13px;
+    }
+    .about-sec .col.m4 p.mont-bold {
+        font-size: 22px!important;
+    }
+
+    .second-p {
+        font-size: 13px!important;
+    }
+
+    .product-list-sec i {
+        font-size: 18px;
+    }
+}
+
+
+
+@media only screen and (max-width:325px){
+    .image-logo p {
+        font-size: 14px;
+    }
+
+    .invisib-div-1 p {
+        font-size: 16px;
+    }
+
+    .invisib-div-1 p span {
+        font-size: 14px;
+    }
+
+    .product-list-sec p {
+        font-size: 12px;
+    }
+
+    .product-list-sec i {
+        font-size: 15px;
+    }
+
+    .partner-sec .partner-title p {
+        font-size: 20px;
+    }
+
+    
+
+}

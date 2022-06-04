@@ -1,0 +1,914 @@
+.cust-mint-text {
+    color: #8DD1A4;
+}
+
+.cust-mint {
+    background-color: #8DD1A4;
+}
+
+.cust-grey-text {
+    color: #54695F;
+}
+
+.cust-grey {
+    background-color: #54695F;
+}
+
+.cust-greenish-text {
+    color: #2EC855;
+}
+
+.cust-greenish {
+    background-color: #2EC855;
+}
+
+.cust-black-text {
+    color: #1A4631!important;
+}
+
+.cust-black {
+    background-color: #1A4631;
+}
+
+/* FONTS */
+.open-regular {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.open-semi {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.open-bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.open-bolder {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.mont-regular {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.mont-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* NAVBAR PART */
+.material-icons{
+    display: inline-flex;
+    vertical-align: top;
+}
+
+.col-vert{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 12px;
+}
+
+.custom-line-height{
+    line-height: 14px !important;
+}
+
+.icon-size-med {
+    font-size: 35px!important;
+}
+
+nav i{
+    margin-left: 4rem!important;
+}
+
+nav {
+    height: 100px!important;
+}
+
+.nav-wrapper {
+    height: 100px!important;
+    align-items: center;
+   
+}
+
+nav ul {
+    position: relative;
+    top: 20px;
+}
+
+.top-font{
+    font-size: 12px;
+}
+
+.ul-center {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul a {
+    font-size: 14px;
+}
+
+/* SECTION: LANDING PAGE */
+.landing-grid {
+    display: grid;
+    grid-template-rows: 500px;
+}
+
+.landing-box {
+    position: relative;
+    background: url(../img/pt-land2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.primary-overlay{
+    background: rgba(60,170,97,0.52);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.land-p {
+    font-size: 35px!important;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.land-subp {
+    font-size: 18px;
+    margin-top: 0px;
+    text-align: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    line-height: 189.7%;
+}
+
+.land-btn {
+    width: 250px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #2EC855;
+}
+
+.land-btn:hover {
+    background-color: #179C39;
+    transition: .3s;
+}
+
+.land-btn2 {
+    width: 250px;
+    border-radius: 5px;
+    border: solid white 2px;
+    margin-left: 10px;
+}
+
+.land-btn2:hover {
+    background-color: white!important;
+    color: #54695F;
+    transition: .3s;
+}
+
+
+/* NAVBAR MAIN PART */
+
+.nav-main-cont {
+    position: relative;
+   
+}
+
+.ul-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-wrapper a {
+    font-size: 18px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+    color: #fafafa!important;
+}
+
+/* SECTION: ABOUT US*/
+
+.about-sec {
+    margin-top: 10rem;
+}
+
+.flex-wrapped {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-title {
+    font-size: 28px;
+}
+
+.about-second-col {
+    padding: 4rem!important;
+}
+
+/* SECTION: MISSION VISION */
+.vismis-sec .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section.vismis-sec .card-panel {
+    background-color: #D6E5DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.vismis-sec .card-panel i {
+    font-size: 60px;
+    text-align: center;
+}
+
+.vis-p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.vis-desc {
+    text-align: center;
+    line-height: 200%;
+    font-size: 12px;
+}
+
+.vision-title {
+    font-size: 28px;
+    text-align: center;
+}
+
+/* SECTION: OUR COMPANY */
+.comp-grid{
+    display: grid;
+    grid-template-rows: 600px;
+    background: url(../img/pt-comp.jpg);
+    position: relative!important;
+    background-position: center;
+    background-size: cover;
+}
+
+.our-comp-sec {
+    margin-top: 6rem;
+}
+
+.comp-overlay {
+    background: rgba(255,255,255,0.79);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comp-overlay .container {
+    background-color: white;
+    padding: 5rem;
+}
+
+.comp-title {
+    font-size: 20px;
+}
+.comp-title span {
+    font-size: 28px;
+}
+
+.comp-desc {
+    line-height: 200%;
+}
+
+/* SECTION: FACILITIES */
+.facil-sec .card-content p {
+    font-size: 18px;
+}
+
+.facil-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.facil-cont .card {
+    height: 100%!important;
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+}
+
+.facil-sec {
+    margin-top: 10rem;
+}
+
+.facil-sec .vis-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.divider-grid {
+    margin-top: 11rem;
+    margin-bottom: 10rem;
+    display: grid;
+    grid-template-rows: 200px;
+    background: url(../img/pt-div.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.div-overlay {
+    background: rgba(255,255,255,0.79);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+
+/* SECTION: PARTNERS */
+
+.partner-sec .partner-title {
+    font-size: 28px;
+}
+
+.partner-title span {
+    font-size: 32px;
+}
+
+.partner-sec .row .col.m7 {
+    padding-left: 0px!important ;
+
+}
+
+.flex-partner-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.small {
+    font-size: 32px!important;
+}
+
+.flex-partner-div .card-partner-list {
+    display: flex;
+}
+
+
+.flex-partner-div .card-partner-list i, .flex-partner-div .card-partner-list .partner-p-vertical {
+    justify-self: center;
+    align-self: center;
+}
+
+.partner-p-vertical {
+    margin-left: 2rem;
+}
+
+.partner-p-vertical .mont-bold {
+    margin-bottom: 0px!important;
+    font-size: 16px;
+}
+
+.partner-p-vertical .open-regular {
+    margin-top: 5px!important;
+    font-size: 12px;
+}
+
+.flex-partner-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-partner-div .card-panel {
+    height: 100%;
+    padding: 1.5rem;
+}
+
+.fcol-partner {
+    padding-left: 0px!important;
+}
+
+.lcol-partner {
+    padding-right: 0px!important;
+}
+
+/* SECTION: CONTACTS */
+
+.contact-sec {
+    margin-top: 10rem;
+}
+
+.cont-col1 {
+    display: grid;
+    grid-template-rows: 150px 300px;
+}
+
+.box1 {
+    background-color: #54695F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    background-color: #D6E5DB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.contact-title {
+    color: #6FC88D;
+    font-size: 18px;
+}
+
+.contact-title span{
+    color: #6FC88D;
+    font-size: 22px;
+}
+
+.contact-details-div p {
+    color: #6C6E67;
+    font-size: 14px;
+    align-self: center;
+    justify-self: center;
+    margin-left: 1rem;
+    line-height: 200%;
+}
+
+.contact-details-div {
+    display: flex;
+}
+
+.contact-details-div i {
+    align-self: center;
+    justify-self: center;
+    font-size: 40px!important;
+}
+
+
+.section.contact-sec {
+    padding-bottom: 0px!important;
+}
+
+.contact-row {
+    margin-bottom: 0px!important;
+}
+
+
+
+
+/* FIXED BUTTON */
+
+.action {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: #2EC855;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.action:hover {
+    background-color: #179C39;
+    transition: 0.3s;
+}
+
+.action span {
+    position: relative;
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em!important;
+    transition: 0.3s ease-in-out ;
+}
+
+.action.present span {
+    transform: rotate(135deg);
+    z-index: 90!important;
+}
+
+.action ul {
+    position: absolute;
+    bottom: 55px;
+    background-color: #f7f7f7;
+    min-width: 250px;
+    right: 0rem;
+    z-index: 5;
+    padding: 20px;
+    border-radius: 10px;
+    visibility: hidden;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.action ul li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.action ul li:hover {
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+
+.action.present ul {
+    bottom: 65px;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s;
+
+}
+
+/* ////// MEDIA QUERY ////// */
+@media only screen and (max-width: 1433px){
+    .brand-hide{
+        left:50%;
+        -webkit-transform:translateX(-50%);
+        transform:translateX(-50%)}
+
+        .hide-here{
+            display:none !important
+        }
+
+    /* SECTION: CERTIFICATIONS */
+    
+    .third-slide img {
+        width: 700px!important;
+    }
+}
+
+@media only screen and (max-width: 1280px){
+.about-sec .col {
+    width: 100%!important;
+}
+
+.row .col.offset-m1 {
+    margin-left: 0px;
+    margin-top: 5rem;
+}
+
+}
+
+@media only screen and (max-width: 1200px){
+.land-subp {
+    padding-left: 15rem;
+    padding-right: 15rem;
+    line-height: 189.7%;
+}
+
+.card-content p {
+    font-size: 16px!important;
+}
+
+.flex-partner-div .col {
+    width: 100%!important;
+}
+
+.flex-partner-div .col {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+}
+
+
+@media only screen and (max-width: 1000px){
+
+    .wrap-collapse {
+        display: none!important;
+    }
+
+    .land-subp {
+        padding-left: 10rem;
+        padding-right: 10rem;
+        line-height: 189.7%;
+    }
+
+    .card-content p {
+        font-size: 14px!important;
+    }
+
+    .contact-sec .col.m3 {
+        display: none;
+    }
+
+    .contact-sec .col.m9 {
+        width: 100%!important;
+        height: 600px;
+    }
+
+    footer .container {
+        display: block!important;
+    }
+}
+
+/* COLLAPSE BTN */
+
+@media only screen and (max-width:910px){
+
+
+    .nav-main-cont {
+        display: none;
+    }
+    
+    .wrap-collapse {
+        display: block!important;
+        position: relative!important;
+        right: 5rem!important;
+        top: 25px!important;
+    }
+
+    .brand-logo img {
+        width: 180px;
+        position: relative;
+        top: 10px;
+    }
+
+    .vismis-sec .col {
+        width: 100%!important;
+    }
+
+    .vismis-sec .row .col.m4, .vismis-sec .row .col.m6 {
+        margin-top: 3rem!important;
+    }
+
+    .card-last, .row-last {
+        margin-bottom: 0px!important;
+    }
+
+    .vismis-sec .card-panel {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+}
+
+@media only screen and (max-width: 875px){
+
+    .land-p {
+        font-size: 26px!important;
+    }
+
+    .land-subp {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .land-btn, .land-btn2 {
+        width: 180px;
+
+    }
+
+    .land-subp {
+        font-size: 14px!important;
+    }
+
+}
+
+
+@media only screen and (max-width: 770px){
+
+    .land-subp {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .comp-grid {
+        grid-template-rows: 800px;
+    }
+
+}
+
+@media only screen and (max-width: 700px){
+
+}
+
+
+@media only screen and (max-width: 660px){
+
+    .land-p {
+        font-size: 20px!important;
+    }
+
+    .land-subp {
+        font-size: 14px;
+    }
+
+    .landing-grid {
+        display: grid;
+        grid-template-rows: 400px;
+    }
+
+    .land-btn, .land-btn2 {
+        width: 160px;
+        font-size: 12px;
+
+    }
+
+    .card-content p {
+        font-size: 12px!important;
+    }
+
+}
+
+@media only screen and (max-width: 599.5px){
+
+.page-footer .container {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+}
+
+}
+@media only screen and (max-width: 590px){
+    .card-content p {
+        font-size: 20px!important;
+    }
+
+    .facil-cont .col {
+        margin-top: 5rem;
+        
+    }
+
+    .btp {
+        display: none;
+    }
+    
+    .ft-title {
+        display: none!important;
+    }
+    
+    .lt-title {
+        display: inline!important;
+    }
+}
+
+
+@media only screen and (max-width: 535px){
+
+
+    .land-subp, .vis-desc {
+        font-size: 12px!important;
+       
+    }
+
+    .vismis-sec .card-panel {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+}
+@media only screen and (max-width: 470px){
+
+.vismis-sec .card-panel {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.comp-grid {
+    grid-template-rows: 800px;
+}
+
+.comp-overlay .container {
+    padding: 3rem;
+}
+
+.partner-title {
+    font-size: 20px!important;
+    text-align: center;
+}
+
+.partner-title span {
+    font-size: 24px!important;
+}
+
+}
+
+@media only screen and (max-width: 420px){
+    .land-subp {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .about-title, .about-subtext, .about-subtext2 {
+        text-align: center;
+    }
+
+    .about-subtext, .about-subtext2 {
+        font-size: 12px;
+    }
+
+    .card-content p {
+        font-size: 16px!important;
+    }
+
+}
+
+@media only screen and (max-width: 390px){
+
+    .primary-overlay {
+        padding-left: 2rem!important;
+        padding-right: 2rem!important;
+    }
+
+
+    .land-btn, .land-btn2 {
+        width: 120px;
+        padding: 5px!important;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .land-subp {
+        text-align: center;
+        line-height: 200%;
+        padding-left: 0rem!important;
+        padding-right: 0rem!important;
+    }
+
+    .primary-overlay .row {
+        display: flex;
+    }
+
+    .about-second-col {
+        padding: 2.5rem!important;
+    }
+
+    .about-title, .vision-title {
+        font-size: 24px;
+    }
+
+    .vision-title {
+        margin-bottom: 0px!important;
+    }
+
+    .comp-grid {
+        grid-template-rows: 900px;
+    }
+    
+    .comp-overlay .container {
+        padding: 3rem;
+    }
+
+    .comp-title {
+        font-size: 18px;
+    }
+
+    .comp-title span {
+        font-size: 20px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 343px){
+    nav .brand-logo{
+        left: 60%;
+    }
+
+    .vismis-sec .card-panel {
+        padding-left: 2.5rem!important;
+        padding-right: 2.5rem!important;
+    }
+
+    .comp-grid {
+        grid-template-rows: 1000px;
+    }
+    
+
+
+}

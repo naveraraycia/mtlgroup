@@ -1,0 +1,367 @@
+.mont-regular {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.mont-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.open-regular {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+/* navbar */
+
+nav {
+    height: 100px!important;
+    display: flex;
+    position: absolute;
+    z-index: -1;
+}
+
+nav .nav-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 80%!important;
+}
+
+.nav-wrapper span {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.nav-wrapper .brand-logo {
+    font-size: 14px;
+}
+
+/* COLUMNS */
+
+.index-row {
+    margin-bottom: 0px!important;
+}
+.carousel-img-col {
+    height: 100vh;
+    overflow: hidden;
+    padding: 0px!important;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column!important;
+    transform: translateY(0);
+    transition: transform 4s cubic-bezier(0,1,.3,1);
+}
+
+.image-container img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* TEXT COLUMN */
+.carousel-text-col {
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10rem!important;
+    padding-right: 10rem!important;
+}
+
+.carousel-text-col img{
+    width: 480px;
+}
+
+.carousel-text-col p {
+    line-height: 200%;
+    font-size: 25px;
+}
+
+.carousel-text-col .btn {
+    align-self: flex-start!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px!important;
+    width: 200px;
+    background-color: #FA8B56;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column!important;
+    animation: fade-slide-down 2s .2s cubic-bezier(0, 0.5, 0, 1) forwards;
+    opacity: 0;
+    display: none;
+}
+
+.isVisible {
+    display: block;
+    
+}
+
+/* FIXED BUTTON */
+
+.action {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: #D99AF6;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.action:hover {
+    background-color: #BE62EA;
+    transition: 0.3s;
+}
+
+.action span {
+    position: relative;
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em!important;
+    transition: 0.3s ease-in-out ;
+}
+
+.action.present span {
+    transform: rotate(135deg);
+    z-index: 90!important;
+}
+
+.action ul {
+    position: absolute;
+    bottom: 55px;
+    background-color: #f7f7f7;
+    min-width: 250px;
+    right: 0rem;
+    z-index: 5;
+    padding: 20px;
+    border-radius: 10px;
+    visibility: hidden;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.action ul li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.action ul li:hover {
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+
+.action.present ul {
+    bottom: 65px;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s;
+
+}
+
+#mtl, #sealomix {
+    width: 250px!important;
+}
+
+.action {
+    z-index: 99!important;
+}
+
+/* ANIMATIONS */
+
+@keyframes fade-slide-down {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(-10rem);
+              transform: translateX(-10rem);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+              transform: none;
+    }
+  }
+  
+  /* MEDIA QUERY */
+
+  @media only screen and (max-width: 2560px){
+    .container {
+        max-width: 2560px!important;
+        width: 90%!important;
+      }
+  }
+
+  @media only screen and (max-width: 1600px){
+      .container {
+        max-width: 1280px!important;
+        width: 80%!important;
+      }
+  }
+
+  @media only screen and (max-width: 1140px){
+    .carousel-text-col img {
+        width: 360px!important;
+    }
+
+    #mtl, #sealomix{
+        width: 250px!important;
+        margin-right: 110px!important;
+    }
+  }
+
+  @media only screen and (max-width: 990px){
+    .index-row .col {
+        width: 100%!important;
+    }
+
+    .carousel-img-col {
+        position: absolute;
+        z-index: -1;
+        opacity: 0.2;
+    }
+
+    .carousel-text-col img {
+        width: 280px!important;
+    }
+
+    #mtl, #sealomix {
+        width: 150px!important;
+    }
+
+    .description-container {
+        background-color: white;
+        padding: 50px;
+    }
+
+    .transparent {
+        background-color: white!important;
+    }
+
+    nav {
+        z-index: 1!important;
+        height: 60px!important;
+    }
+
+    .z-depth-0, .description-container {
+        box-shadow: 0 3px 3px 0 rgb(0 0 0 / 2%), 0 1px 7px 0 rgb(0 0 0 / 3%), 0 3px 1px -1px rgb(0 0 0 / 12%)!important;
+    }
+
+    .carousel-text-col p {
+        margin-bottom: 3rem!important;
+        font-size: 18px!important;
+    }
+
+  }
+  
+  @media only screen and (max-width: 800px){
+    .carousel-text-col {
+        padding-left: 5rem!important;
+    padding-right: 5rem!important;
+    }
+  }
+
+  @media only screen and (max-width: 690px){
+    .carousel-text-col p {
+        font-size: 18px;
+    }
+
+    .container {
+        width: 100%!important;
+    }
+
+    #mtl, #sealomix {
+        margin-right: 50px!important;
+    }
+
+    #protech {
+        width: 190px!important;
+    }
+
+    .carousel-text-col img {
+        width: 240px!important;
+    }
+
+    #sealomix, #mtl {
+        width: 130px!important;
+    }
+
+    .carousel-text-col p {
+        font-size: 16px!important;
+    }
+  }
+
+  
+  @media only screen and (max-width: 550px){
+    .brand-logo {
+        font-size: 12px!important;
+    }
+    
+    .brand-logo span {
+        font-size: 14px!important;
+    }
+
+    .carousel-text-col img {
+        width: 200px!important;
+    }
+
+    #protech {
+        width: 150px!important;
+    }
+
+    #mtl, #sealomix {
+        width: 100px!important;
+    }
+
+    .carousel-text-col p {
+        font-size: 14px!important;
+    }
+
+    .btn {
+        font-size: 12px!important;
+    }
+
+    .carousel-text-col {
+        padding-left: 2rem!important;
+        padding-right: 2rem!important;
+    }
+
+    .description-container {
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+    }
+  }
+
+    
+  @media only screen and (max-width: 355px){
+    .carousel-text-col {
+        padding-left: 0rem!important;
+        padding-right: 0rem!important;
+    }
+    .brand-logo {
+        font-size: 9px!important;
+    }
+    
+    .brand-logo span {
+        font-size: 13px!important;
+    }
+  
+  }
+

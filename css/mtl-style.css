@@ -1,0 +1,832 @@
+.cust-purple-text {
+    color: #6F63AD;
+}
+
+.cust-purple {
+    background-color: #6F63AD;
+}
+
+.cust-light-purple-text {
+    color: #D99AF6;
+}
+
+.cust-light-purple {
+    background-color: #D99AF6;
+}
+
+.cust-dark-purple-text {
+    color: #A347B9;
+}
+
+.cust-dark-purple {
+    background-color: #A347B9;
+}
+
+.cust-grey {
+    background-color: #747681;
+}
+
+.cust-grey-text {
+    color: #747681;
+}
+
+.mont-reg {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.mont-semi {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.mont-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.open-sans-reg {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.open-sans-semi {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+/* END OF STYLE CLASSES */
+
+
+/* NAVBAR PART */
+
+.menu-ul {
+    margin-left: 12rem;
+    margin-top: 2rem;
+}
+
+
+
+nav .button-collapse {
+    z-index:0!important;
+}
+
+
+
+nav {
+    height: 100px!important;
+}
+
+nav .brand-logo {
+    margin-top: 2rem;
+}
+
+nav .container {
+    
+        width: 78%!important;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    
+}
+
+nav ul a:hover {
+    color: #A347B9!important;
+    font-weight: 700!important;
+    background-color: transparent!important;
+    font-size: 18px!important;
+    transition: .3s;
+}
+
+/* SECTION: LANDING PAGE */
+.cube-cont{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template: 550px  /100%  ;
+    /* grid-gap: 20px; */
+    /* grid-template-columns: 300px; */
+    
+}
+.cube-cont2{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template: 255px 275px /100% 100%  ;
+    grid-gap: 20px;
+    /* grid-template-columns: 300px; */
+    
+}
+
+section .container{
+    width: 80%!important;
+    margin-top: 1rem;
+}
+
+.land1-bg {
+    position: relative;
+    background: url(../img/land-mtl.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.land2-bg {
+    position: relative;
+    background: url(../img/finance.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text-div{
+    padding-right: 5rem;
+
+}
+
+.head-text {
+    font-size: 28px;
+}
+
+.head-p{
+    font-size: 18px;
+    line-height: 180.2%;
+}
+
+.btn {
+
+    height: 55px;
+    text-transform: none;
+    /* box-shadow: none!important; */
+    padding: 0 2rem;
+
+}
+.btn:hover {
+
+    background-color: #66C9DE!important;
+
+}
+
+section.our-company .row .col, section.landing-sec .row .col {
+    padding: 0 25px!important;
+
+}
+
+/* SECTION: REPUTATION */
+
+.rep-head{
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    top: 5rem;
+}
+
+
+
+.rep-box {
+    position: relative;
+    display: grid;
+    grid-template-rows: 230px;
+}
+
+.reputation-sec .row {
+    margin: 0px 5rem;
+    position: relative;
+    top: 10rem;
+    /* z-index: 1; */
+}
+
+.rep-box {
+    z-index: -1;
+}
+
+.reputation-sec .card-panel {
+    background-color: #fafafa;
+    height: 307px;
+    
+}
+
+.reputation-sec .card-panel {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* SECTION: OUR COMPANY */
+.comp-p span{
+    font-size: 24px;
+}
+
+.tower-pic {
+    position: relative;
+    background: url(../img/tower.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 470px ;
+}
+
+.our-company {
+    margin-top: 8rem;
+}
+
+/* SECTION: OUR TEAM */
+
+.team-cont {
+    margin-top: 6rem;
+}
+
+.team-head{
+    font-size: 28px!important;
+}
+
+.container-panels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    margin: 0px 5rem;
+}
+
+.container.team-cont{
+
+        width: 80%!important;
+
+}
+
+.carousel .indicators .indicator-item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 24px 4px;
+    background-color: #6F63AD;
+    transition: background-color 0.3s ease 0s;
+    border-radius: 50%;
+}
+
+/* SECTION: MISSION VISSION CONTACTS */
+
+.misvis-sec{
+    margin-top: 6rem;
+}
+
+.misvis-sec .active, .tabs, .tab-row  {
+    background-color: #EDECF5!important;
+}
+
+.sel-tab {
+    padding: 30px 50px!important;
+}
+
+
+.tabs .indicator {
+    background-color: #A347B9;
+}
+
+.contact-grid {
+    display: grid;
+ 
+    grid-gap: 20px;
+}
+
+.con-tab{
+    padding-left: 34px!important;
+}
+
+.contact-title {
+    font-size: 28px;
+}
+
+.cont-deets {
+    color: #825E9F;
+    font-size: 16px;
+}
+
+.col-vert {
+    margin-left: 2rem;
+}
+
+.cont-cube.card-panel {
+    padding: 24px 50px!important;
+}
+
+/* SECTION: SERVICES */
+.service-p{
+    font-size: 18px;
+    line-height: 182.2%;
+}
+
+/* SERVICES : CARD PART */
+
+.service-sec .card-title{
+    font-size: 18px!important;
+    color: white;
+}
+
+.service-sec .card-content {
+    background-color: #747681!important;
+}
+
+.card-action .carousel-item {
+    padding-left: 2rem;
+}
+
+.card-action i {
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.card-action .carousel .indicators .indicator-item.active {
+    background-color: #D2BBE4!important;
+}
+
+.icon-div {
+    display: flex;
+}
+
+.icon-div i {
+    align-self: center;
+}
+
+.icon-div p {
+    font-size: 12px!important;
+    line-height: 188.2%;
+}
+
+.accounting-col .card-panel {
+    padding: 5px 20px 40px 20px!important;
+}
+
+
+
+.card-content.white {
+    background-color: white!important;
+}
+
+.hr-col .card-content {
+    background-color: #D2BBE4!important;
+}
+
+/* FIXED BUTTON */
+
+.action {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: #D99AF6;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.action:hover {
+    background-color: #BE62EA;
+    transition: 0.3s;
+}
+
+.action span {
+    position: relative;
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em!important;
+    transition: 0.3s ease-in-out ;
+}
+
+.action.present span {
+    transform: rotate(135deg);
+    z-index: 90!important;
+}
+
+.action ul {
+    position: absolute;
+    bottom: 55px;
+    background-color: #f7f7f7;
+    min-width: 250px;
+    right: 0rem;
+    z-index: 5;
+    padding: 20px;
+    border-radius: 10px;
+    visibility: hidden;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.action ul li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.action ul li:hover {
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+
+.action.present ul {
+    bottom: 65px;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s;
+
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+@media only screen and (max-width:1303px){
+    .reputation-sec .row .col {
+        padding: 0 10px!important;
+    }
+}
+@media only screen and (max-width:1137px){
+    .head-p {
+        font-size: 16px;
+    }
+    .text-div {
+        padding-right: 0rem!important;
+    }
+
+    .reputation-sec .row {
+        position: relative;
+        margin: 0px!important;
+        top: 10rem;
+        /* z-index: 1; */
+    }
+
+    /* .tower-pic {
+        display: none;
+    } */
+
+}
+
+@media only screen and (max-width:1055px){
+.second-two p {
+    font-size: 10px!important;
+}
+.hr-col .second-two p {
+    font-size: 12px!important;
+}
+
+}
+
+@media only screen and (max-width:1025px){
+.comp-head {
+    font-size: 40px;
+}
+
+.our-company p {
+    font-size: 12px;
+}
+
+.our-company .col.m3{
+    width: 31%;
+}
+}
+
+@media only screen and (max-width:993px){
+
+.landing-sec{
+    margin-top: 5rem!important;
+}
+nav .button-collapse i {
+
+    margin-top: 2rem!important;
+}
+
+nav .container {
+    width: 78%;
+}
+
+}
+
+@media only screen and (max-width:970px){
+.accounting-col .card-title {
+    font-size: 13px!important;
+}
+.hr-col .card-title {
+    font-size: 13px!important;
+}
+
+}
+
+@media only screen and (max-width:910px){
+    .head-p {
+        font-size: 14px;
+    }
+
+    .head-text {
+        font-size: 25px;
+    }
+
+    .rep-head {
+        font-size: 20px;
+    }
+
+    
+
+}
+
+@media only screen and (max-width:850px){
+
+.accounting-col .card-action {
+    height: 500px;
+}
+
+.accounting-col .carousel-slider {
+    height: 450px!important;
+}
+.hr-col .card-action {
+    height: 500px;
+}
+
+.hr-col .carousel-slider {
+    height: 450px!important;
+}
+
+}
+
+@media only screen and (max-width:770px){
+    .cube-cont {
+        grid-template: 380px /100%;
+    }
+
+    .head-text {
+        font-size: 20px;
+    }
+
+    .head-p {
+        font-size: 12px;
+    }
+
+    .btn {
+        height: 45px;
+    }
+
+    .cube-cont2 {
+        grid-template: 190px 170px /100% 100%;
+    }
+
+    .card-panel p {
+        font-size: 12px;
+    }
+
+    .reputation-sec .card-panel {
+        height: 250px;
+    }
+
+    i.large {
+        font-size: 5rem;
+    }
+
+    .rep-box .box {
+    bottom: 9rem;
+    position: relative;
+    }
+
+    .rep-head {
+        top: 0px;
+    }
+
+    .reputation-sec {
+        margin-top: 5rem;
+    }
+
+    .reputation-sec .row {
+        top: 1rem;
+    }
+
+    .btn {
+        height: 34px;
+        font-size: 12px!important;
+    }
+
+    .our-company {
+        margin-top: 0rem;
+    }
+
+    .comp-head {
+        font-size: 30px!important;
+    }
+
+    .our-company span {
+        font-size: 22px!important;
+    }
+
+    .rep-box {
+        grid-template-rows: 195px;
+    }
+
+    .container-panels {
+        height: 370px;
+    }
+
+    /* MISSION VISION */
+    .tab-p {
+        font-size: 12px!important;
+    }
+
+    .contact-title {
+        font-size: 24px;
+    }
+
+    i.medium {
+        font-size: 3rem;
+    }
+
+    .misvis-col{
+        width: 100%!important;
+    }
+
+    .con-tab{
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+
+    .service-sec span {
+        font-size: 22px!important;
+    }
+
+   
+
+
+}
+
+@media only screen and (max-width:750px){
+.accounting-col, .hr-col{
+    width: 100%!important;
+}
+
+.accounting-col .card-title, .hr-col .card-title{
+    text-align: center!important;
+}
+.accounting-col .second-two p, .hr-col .second-two p{
+    font-size: 12px!important;
+}
+
+}
+
+@media only screen and (max-width:700px){
+    .head-text {
+        font-size: 20px;
+    }
+
+    .head-p {
+        font-size: 12px;
+    }
+
+    .rep-head {
+        font-size: 16px;
+    }
+
+    .reputation-sec .col.m3 {
+        width: 50%!important;
+    }
+
+    .our-company .col.m3 {
+        display: none;
+    }
+
+    .our-company .row .col.offset-m1 {
+        margin-left: 0px!important;
+    }
+    .our-company .row .col.m7 {
+        width: 100%!important;
+    }
+
+    .team-p{
+        font-size: 12px!important;
+    }
+
+}
+
+@media only screen and (max-width:645px){
+.cube-cont {
+    display: none;
+}
+
+.landing-sec {
+    margin-top: 3rem!important;
+}
+
+.landing-sec .col.m6 {
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 1rem;
+}
+
+
+
+}
+
+@media only screen and (max-width:620px){
+nav .brand-logo {
+   
+    margin-left: 20%;
+}
+}
+
+@media only screen and (max-width:510px){
+    .team-head {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width:465px){
+.accounting-col .second-two p {
+    font-size: 10px!important;
+}
+}
+
+@media only screen and (max-width:430px){
+nav img {
+    width: 80px!important;
+}
+
+.reputation-sec .col.m3 {
+    width: 100%!important;
+}
+
+.landing-sec {
+    margin-top: 1rem!important;
+}
+
+.rep-box {
+    display: none;
+}
+
+.our-company span {
+    font-size: 15px!important;
+}
+
+.comp-head {
+    font-size: 25px!important;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.container-panels {
+    margin: 0px 2rem;
+}
+
+.service-sec span {
+    font-size: 15px!important;
+}
+
+}
+
+@media only screen and (max-width:380px){
+.service-sec p {
+    font-size: 12px;
+}
+
+.accounting-col p, .hr-col p, .accounting-col .second-two p, .hr-col .second-two p{
+    font-size: 10px!important;
+}
+
+.hr-col .card-action {
+    height: 375px;
+}
+
+.hr-col .carousel-slider {
+    height: 355px!important;
+}
+
+.hr-col .card-title {
+    font-size: 11px!important;
+}
+
+.accounting-col .card-action .carousel-item {
+    padding-left: 0rem;
+}
+.hr-col .card-action .carousel-item {
+    padding-left: 0rem;
+}
+
+}
+
+@media only screen and (max-width:351px){
+ .btp{
+     display: none;
+ }
+
+}
+
+@media only screen and (max-width:325px){
+.cube-cont2 {
+    grid-template: 190px 170px /100% 100%;
+    grid-gap: 45px!important;
+}
+
+}

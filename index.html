@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <!-- CUSTOM CSS OVERRIDES -->
+  <link type="text/css" rel="stylesheet" href="css/index.css" />
+
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+
+   <!-- FONT AWESOME -->
+   <script src="https://kit.fontawesome.com/57070be855.js" crossorigin="anonymous"></script>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" href="img/mtl-icon.png">
+  <title>MTL GROUP</title>
+</head>
+
+<body>
+      <!-- RESPONSIVE WITH SIDE MENU -->
+  <nav class="transparent z-depth-0">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo black-text mont-regular"><span class="mont-bold black-text">MTL</span> GROUP OF COMPANIES</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="row index-row">
+      <div class="col m6 carousel-text-col">
+        <div id="desc">
+        
+            <div class="description-container">
+                <img src="img/mtl-logo.png" id="mtl">
+        
+                <p class="description open-regular">We provide solutions for companies' Accounting and Human Resource needs with our ability to render incomparable services to our clients.</p>
+        
+                <a href="mtlholdings.html" class="btn white-text open-regular" onmouseover="this.style.backgroundColor='#B35BDD'" onmouseout="this.style.backgroundColor='#D99AF6'" style="background-color: #D99AF6;">Learn More</a>
+            </div>
+        <div class="description-container">
+        <img src="img/decorall_logo.png" alt="">
+
+        <p class="description open-regular">We employ pretreatment, powder coating and curing of parts used in the architectural, appliance, automotive  and furniture market.</p>
+
+        <a href="decorall.html" class="btn white-text open-regular" onmouseover="this.style.backgroundColor='#f36828'" onmouseout="this.style.backgroundColor='#FA8B56'">Learn More</a>
+    </div>
+
+        <div class="description-container">
+        <img src="img/southtech_logo.png" alt="">
+
+        <p class="description open-regular">We fabricate and distribute imported racking system together with our modern plant facilities and highest rated equipment.</p>
+
+        <a href="southtech.html" class="btn white-text open-regular" onmouseover="this.style.backgroundColor='#DB1715'" onmouseout="this.style.backgroundColor='#E25A59'" style="background-color: #E25A59;">Learn More</a>
+    </div>
+
+        <div class="description-container">
+        <img src="img/protech_logo.png" alt="" id="protech">
+
+        <p class="description open-regular">We are a powder coating contractor that provides our customers the highest level of quality surface finish at a fair and competitive price.</p>
+
+        <a href="protech.html" class="btn white-text open-regular" onmouseover="this.style.backgroundColor='#00AF54'" onmouseout="this.style.backgroundColor='#4BD28C'" style="background-color: #4BD28C;">Learn More</a>
+    </div>
+
+        <div class="description-container">
+        <img src="img/pscasi_logo.png" alt="">
+
+        <p class="description open-regular">We offer metal stamping services with expertise making our designs adaptable to your needs and fabrication requirements.</p>
+
+        <a href="pscasi.html" class="btn white-text open-regular" onmouseover="this.style.backgroundColor='#D99E20'" onmouseout="this.style.backgroundColor='#E9B64B'" style="background-color: #E9B64B;">Learn More</a>
+    </div>
+
+        <div class="description-container">
+        <img src="img/sealomix_logo.png" id="sealomix">
+
+        <p class="description open-regular">We are an industrial marketing company that provides total solutions in metal finishing, semiconductor, electronics, and other related industries.</p>
+
+        <a href="sealomix.html" class="btn white-text open-regular" onmouseover="this.style.backgroundColor='#15567C'" onmouseout="this.style.backgroundColor='#387CA3'" style="background-color: #387CA3;">Learn More</a>
+    </div>
+
+</div>
+
+      </div>
+      <div class="col m6 carousel-img-col">
+          <div class="image-container" id="imgs">
+            <img src="index-img/mtl-index.jpg">
+              <!-- carousel imgs -->
+              <img src="index-img/decorall-index1.jpg">
+              <!-- carousel imgs -->
+              <img src="index-img/southtech-index.jpg">
+              <!-- carousel imgs -->
+              <img src="index-img/protech-index.jpg">
+              <!-- carousel imgs -->
+              <img src="index-img/pscasi-index.jpg">
+              <!-- carousel imgs -->
+              <img src="index-img/sealo-index.jpg">
+              
+              
+          </div>
+
+      </div>
+  </div>
+
+  
+   <!-- FIXED BUTTON -->
+   <div class="action z-depth-1 black-text" onclick="actionToggle();">
+    <span>+</span>
+    <ul>
+      <a href="mtlholdings.html"><li>
+        <img src="img/mtl-logo.png" alt="" width="70px">
+      </li></a>
+      <a href="sealomix.html"><li>
+        <img src="img/sealomix_logo.png" alt="" width="70px">
+      </li></a>
+      <a href="decorall.html"><li>
+        <img src="img/decorall_logo.png" alt="" width="150px">
+      </li></a>
+      <a href="southtech.html"><li>
+        <img src="img/southtech_logo.png" alt="" width="150px">
+      </li></a>
+      <a href="protech.html"><li>
+        <img src="img/protech_logo.png" alt="" width="150px">
+      </li></a>
+      <a href="pscasi.html"><li>
+        <img src="img/pscasi_logo.png" alt="" width="150px">
+  </li></a>
+
+    </ul>
+  </div>
+
+
+    <script type="text/javascript">
+      function actionToggle(){
+        var action = document.querySelector('.action');
+        action.classList.toggle('present');
+      }
+    </script>
+  
+
+  <!--Import jQuery before materialize.js-->
+  <script src="js/index.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Custom JS & jQuery here
+      
+    });
+  </script>
+</body>
+
+</html>

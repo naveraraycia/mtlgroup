@@ -1,0 +1,1097 @@
+/* COLORS */
+.cust-blue-text {
+    color: #123D68;
+}
+
+.cust-blue {
+    background-color: #123D68;
+}
+
+.cust-red-text {
+    color: #E64A53;
+}
+
+.cust-red {
+    background-color: #E64A53;
+}
+
+/* FONTS */
+.open-regular {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.open-semi {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.open-bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.open-bolder {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.mont-reg {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.mont-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* NAVBAR */
+nav {
+        height: 100px!important;
+        line-height: 64px;
+        display: flex;
+        align-items: center;
+}
+
+.img-wrapper img {
+    width: 250px;
+}
+
+.nav-wrapper ul li a:hover {
+    background-color: transparent!important;
+    color: #E64A53!important;
+    font-size: 18px;
+    transition: .3s;
+}
+
+nav .button-collapse i {
+    color: #123D68;
+}
+
+.side-nav .center {
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: center;
+}
+
+.container {
+    width: 80%!important;
+}
+
+/* SECTION: LANDING PAGE */
+.landing-grid {
+    display: grid;
+    grid-template-rows: 600px;
+}
+
+.landing-box {
+    position: relative;
+    background: url(../img/st-landing.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.primary-overlay{
+    background: rgba(18,61,104,0.69);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.land-p {
+    font-size: 35px!important;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.land-subp {
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+.land-btn {
+    width: 250px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.land-btn:hover {
+    background-color: #CE3740;
+    transition: .3s;
+}
+
+.land-btn2 {
+    width: 250px;
+    border-radius: 5px;
+    border: solid white 2px;
+    margin-left: 10px;
+}
+
+.land-btn2:hover {
+    background-color: white!important;
+    color: #123D68;
+    transition: .3s;
+}
+
+/* SECTION: ABOUT OUR COMPANY */
+
+.about-sec {
+    margin-top: 10rem;
+}
+.flex-wrapped {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-title {
+    font-size: 40px;
+    margin-bottom: 10px!important;
+}
+
+hr {
+    height: 10px;
+    background-color: #E64A53;
+    border: none;
+    width: 80px;
+    margin-left: 0px;
+
+}
+
+.about-desc {
+    font-size: 18px;
+    line-height: 228.2%;
+}
+
+.about-desc span {
+    font-size: 20px;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-rows: 200px ;
+}
+
+.about-box {
+    position: relative;
+    background: url(../img/st-about.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+
+.about-grid2 {
+    margin-top: 6rem;
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-gap: 50px;
+}
+
+.about-grid .col.s12 {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.years-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.years-box p {
+    font-size: 34px;
+}
+
+.years-box span {
+    font-size: 16px;
+}
+
+.flex-wrapped .row {
+    width: 100%!important;
+}
+
+.icons-div {
+    margin-top: 4rem;
+}
+
+.icons-div .card-panel {
+    height: 100%!important;
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-content {
+    display: flex;
+}
+
+.icon-content i {
+    font-size: 50px!important;
+    align-self: center ;
+}
+
+.icon-p {
+    align-self: center;
+    margin-left: 20px;
+}
+
+.card1, .card2 {
+    height: 100%!important;
+}
+
+/* SECTION: VISION MISSION */
+.vismis-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.tabs {
+    background-color: #123D68;
+}
+
+.tabs .indicator {
+    height: 5px;
+    background-color: #E64A53;
+}
+
+#tab1 span, #tab2 span {
+    font-size: 20px;
+}
+
+.first-tab {
+    background-color: #F5F5F5;
+    padding: 3rem;
+}
+
+.tab-row .col.s12.active {
+    padding: 3rem!important;
+}
+
+.viscol1 {
+    background: url(../img/st-misivs.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.vismis-sec .row .viscol1 {
+    margin-left: 0px!important;
+}
+
+/* SECTION: PROJECTS */
+
+
+.project-cont .card-panel {
+    margin-right: 2rem;
+}
+
+.responsive, .slick-track {
+    display: flex!important;
+    flex-wrap: wrap!important;
+}
+
+.slick-slide {
+    height: inherit!important;
+}
+
+.icon-container {
+
+    height: 35px;
+    width: 35px;
+    background-color: #E64A53;
+    z-index: 0;
+    text-align: center;
+    line-height: 1.3;
+    cursor: pointer;
+    transition: .3s;
+    width: 80px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container-right {
+    font-size: 24px!important;
+    height: 35px;
+    width: 35px;
+    background-color: #E64A53;
+    z-index: 0;
+    text-align: center;
+    line-height: 1.3;
+    cursor: pointer;
+    transition: .3s;
+    width: 80px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-container:hover, .icon-container-right:hover {
+    background-color: #123D68;
+    transition: .3s;
+}
+
+.icon-container:hover i, .icon-container-right:hover i {
+    color: #E9B64B;
+}
+
+
+.slick-dots {
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 0px 10px ;
+}
+
+.slick-dots li button {
+    font-size: 0px!important;
+    height: 12px;
+    width: 12px;
+    background-color: #CFDEEF;
+    border-radius: 50%;
+    border: none;
+    transition: .3s;
+}
+
+.slick-dots .slick-active button {
+    background-color: #E64A53;
+    height: 15px;
+    width: 15px;
+}
+
+.project-title {
+    font-size: 40px;
+    margin-bottom: 10px!important;
+}
+
+.project-sec {
+    margin-top: 10rem;
+}
+
+.centered-div {
+    margin-bottom: 3rem;
+}
+
+/* SECTION: MACHINES */
+
+.machines img {
+    width: -webkit-fill-available!important;
+}
+
+
+
+.responsive-machines .card-panel {
+    width: fit-content!important;
+    padding: 2rem;
+}
+
+.machines p {
+    font-size: 20px;
+}
+
+.responsive-machines .slick-track {
+    width: fit-content!important;
+}
+
+.machine-desc-div {
+    margin-top: 3rem!important;
+}
+
+.machines, .slick-track {
+    display: flex!important;
+    flex-wrap: wrap!important;
+}
+
+/* SECTION PRODUCTS */
+
+.prod-sec .col {
+    height: 500px;
+}
+
+.prod1-bg {
+    background: url(../img/st-prod1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.prod2-bg {
+    background: url(../img/st-prod2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.prod3-bg {
+    background: url(../img/st-prod3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.prod4-bg {
+    background: url(../img/st-prod4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.prod5-bg {
+    background: url(../img/st-prod5.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.prod-sec .container {
+    display: flex;
+    justify-content: center;
+}
+
+.prod-sec {
+    margin-top: 10rem;
+}
+
+.prod-overlay {
+    visibility: hidden;
+}
+
+.prod-sec .col:hover .prod-overlay {
+    background: rgba(255,255,255,0.72);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+
+}
+
+.prod-overlay span.cust-red-text{
+    position: relative;
+    right: 3px;
+}
+
+.prod-overlay span {
+    font-size: 35px;
+}
+
+.prod-overlay-p {
+    transform: rotate(90deg);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* SECTION: CLIENTS */
+
+.client-sec {
+    margin-top: 10rem;
+}
+
+.client-sec .col {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.client-slider-div {
+    display: flex!important;
+    justify-content: center!important;
+    padding: 4rem;
+    flex-direction: column;
+}
+
+.client-div {
+    display: flex;
+    
+}
+
+.client-div i {
+    font-size: 35px;
+    align-self: center;
+}
+
+.client-div p {
+    align-self: center;
+    text-align: left!important;
+    margin-left: 10px;
+}
+
+.carousel-slider {
+    height: 500px!important;
+}
+
+.client-bg {
+    background: url(../img/st-client.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px!important;
+}
+
+
+.carousel .indicators .indicator-item.active {
+    background-color: #E64A53!important;
+}
+
+.carousel .indicators .indicator-item {
+    background-color: #CFDEEF!important;
+
+}
+
+
+/* SECTION: CONTACT US */
+.contact-flex {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+
+.cont-sec .col.m8 {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.cont-sec ul {
+    display: flex!important;
+}
+
+.cont-sec li {
+    margin-right: 20px;
+}
+
+.contact-div {
+    padding: 3rem;
+}
+
+.p-div p.open-regular, .p-div li {
+    line-height: 200%;
+    font-size: 16px;
+}
+
+.p-div p.open-bold {
+    font-size: 20px;
+}
+
+/* FOOTER PART */
+.section.cont-sec {
+    padding-bottom: 0px!important;
+    position: relative;
+    top: 20px;
+}
+
+.page-footer {
+    padding-top: 0px!important;
+}
+
+.ft-hidden {
+    display: none;
+}
+
+/* FIXED BUTTON */
+
+.action {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: #E64A53;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.action:hover {
+    background-color: #CE3740;
+    transition: 0.3s;
+}
+
+.action span {
+    position: relative;
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em!important;
+    transition: 0.3s ease-in-out ;
+}
+
+.action.present span {
+    transform: rotate(135deg);
+    z-index: 90!important;
+}
+
+.action ul {
+    position: absolute;
+    bottom: 55px;
+    background-color: #f7f7f7;
+    min-width: 250px;
+    right: 0rem;
+    z-index: 5;
+    padding: 20px;
+    border-radius: 10px;
+    visibility: hidden;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.action ul li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.action ul li:hover {
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+
+.action.present ul {
+    bottom: 65px;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s;
+
+}
+
+
+
+
+
+/* MEDIA QUERY */
+
+
+@media only screen and (max-width: 1420px){
+
+    .menu-tabs {
+        display: none;
+    }
+
+    nav .brand-logo {
+        color: #fff;
+        display: flex;
+        align-items: center;
+       
+    }
+
+    .img-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav a.button-collapse{
+        display:block;
+    }
+     
+
+
+}
+
+@media only screen and (max-width: 1260px){
+    .cont-sec ul {
+        display: flex!important;
+        flex-direction: column;
+    }
+
+    .cont-sec ul li {
+        margin-top: 16px!important;
+    }
+
+    .mobile-p {
+        margin-bottom: 0px!important;
+    }
+}
+
+@media only screen and (max-width: 1025px){
+    .about-title {
+        font-size: 35px;
+    }
+
+    .about-desc {
+        font-size: 14px;
+        line-height: 228.2%;
+    }
+
+    .years-box span {
+        font-size: 14px;
+    }
+
+    .years-box p {
+        font-size: 30px;
+    }
+
+    .prod-sec .col {
+        width: 100%!important;
+        height: 500px!important;
+    }
+
+    .prod-sec .row {
+        width: 80%!important;
+    }
+
+    .prod-overlay-p {
+        transform: rotate(0deg)!important;
+    }
+
+    .prod-overlay {
+        padding: 4rem;
+        text-align: center;
+    }
+
+}
+
+
+@media only screen and (max-width: 970px){
+    .about-col1, .about-col2, .card1,.card2 {
+        width: 100%!important;
+    }
+
+    .card1 {
+        margin-bottom: 1rem;
+    }
+
+    
+    .card1, .card2 {
+        height: fit-content!important;
+    }
+
+    
+    .card2 {
+        /* bottom: 55px; */
+        position: relative;
+}
+
+    .icons-div .card-panel {
+        height: 75%!important;
+
+    }
+
+    .row .col.offset-m2 {
+       margin-left: 0px!important;
+       margin-top: 3rem;
+    }
+
+    .about-grid2 {
+        margin-top: 4rem;
+    }
+
+    .row .vismis-cont .col.m3 {
+        width: 100%!important;
+        height: 200px;
+    }
+
+    .viscol2 {
+        width: 100%!important;
+    }
+
+}
+
+
+@media only screen and (max-width: 950px){
+
+    .project-title {
+        font-size: 30px;
+    }
+
+    .centered-div hr {
+        width: 55px;
+    }
+
+    .client-sec .col {
+        width: 100%!important;
+    }
+
+    .client-sec .row .col.offset-m1 {
+        margin-left: 0px;
+    }
+
+    .client-bg {
+        height: 200px!important;
+    }
+
+}
+
+@media only screen and (max-width: 875px){
+
+    .land-p {
+        font-size: 26px!important;
+    }
+
+    .land-subp {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .land-btn, .land-btn2 {
+        width: 180px;
+
+    }
+
+}
+
+@media only screen and (max-width: 830px){
+    .contact-flex {
+        flex-direction: column-reverse;
+    }
+    .cont-sec .col {
+        width: 100%!important;
+    }
+
+    iframe {
+        height: 500px!important;
+    }
+
+    
+}
+
+@media only screen and (max-width: 800px){
+.ft-hidden {
+    display: inline;
+}
+
+.ft-title {
+    display: none;
+}
+
+}
+
+@media only screen and (max-width: 660px){
+
+    .land-p {
+        font-size: 20px!important;
+    }
+
+    .land-subp {
+        font-size: 14px;
+    }
+
+    .landing-grid {
+        display: grid;
+        grid-template-rows: 400px;
+    }
+
+    .land-btn, .land-btn2 {
+        width: 160px;
+        font-size: 12px;
+
+    }
+
+    .about-title {
+        font-size: 25px;
+    }
+
+    .about-desc {
+        margin-top: 2rem;
+        font-size: 14px;
+        line-height: 228.2%;
+    }
+
+    .years-box span {
+        font-size: 14px;
+    }
+
+    .years-box p {
+        font-size: 30px;
+    }
+
+    hr {
+        height: 7px;
+        width: 60px;
+    }
+
+    ul.slick-dots {
+        display: none!important;
+    }
+
+}
+
+
+@media only screen and (max-width: 590px){
+
+    .icon-content {
+      flex-direction: column;
+
+    }
+
+    .icon-p {
+        text-align: center;
+        margin-left: 0px!important;
+    }
+
+    .icons-div .card-panel {
+         padding: 2rem 2rem;
+
+    }
+
+}
+@media only screen and (max-width: 535px){
+
+    .land-p {
+        font-size: 16px!important;
+    }
+
+    .land-subp {
+        font-size: 12px;
+    }
+
+    .prod-overlay-p {
+        font-size: 12px!important;
+    }
+
+    .prod-overlay span {
+        font-size: 20px!important;
+    }
+
+    .carousel-slider {
+        height: 600px!important;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+
+    .brand-logo img {
+        width: 150px!important;
+    }
+
+    .img-wrapper a {
+        height: 56px!important;
+    }
+
+}
+
+@media only screen and (max-width: 425px){
+
+    .project-title {
+        font-size: 20px;
+    }
+
+    .machines p {
+        font-size: 18px;
+    }
+
+    .prod-sec .col {
+        height: 350px!important;
+    }
+
+    .prod-sec .container {
+        justify-content: flex-start!important;
+    }
+
+    .prod-sec .centered-div p, .machine-p {
+        font-size: 25px!important;
+    }
+
+    .p-div p.open-regular, .p-div li {
+        font-size: 14px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 390px){
+
+    .primary-overlay {
+        padding-left: 2rem!important;
+        padding-right: 2rem!important;
+    }
+
+
+    .land-btn, .land-btn2 {
+        width: 120px;
+        padding: 5px!important;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .land-subp {
+        text-align: center;
+        line-height: 200%;
+    }
+
+    .primary-overlay .row {
+        display: flex;
+    }
+
+    .tab-row span {
+        font-size: 16px!important;
+    }
+
+    .icon-container-right {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        height: 35px!important;
+    }
+
+    .icon-container {
+        position: absolute;
+        top: 100%;
+        left: 15%;
+        height: 35px!important;
+    }
+
+    .carousel-slider {
+        height: 700px!important;
+    }
+
+    .client-slider-div {
+  
+        padding: 3rem!important;
+       
+    }
+
+    .carousel.carousel-slider .carousel-item p {
+        font-size: 13px!important;
+    }
+
+
+}
+
+@media only screen and (max-width: 370px){
+    .btp {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 325px){
+
+    .about-title {
+        font-size: 20px;
+    }
+
+    .about-desc span {
+        font-size: 16px;
+    }
+
+    .machines p {
+        font-size: 14px;
+    }
+
+}

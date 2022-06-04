@@ -1,0 +1,1322 @@
+body{
+    margin:auto;
+}
+.cust-yellow{
+    background-color: #E9B64B;
+}
+
+.cust-yellow-text{
+    color: #E9B64B;
+}
+
+.cust-gray-text {
+    color: #6C6E67;
+}
+
+.cust-gray {
+    background-color: #6C6E67;
+}
+
+.cust-black-text {
+    color: #363636;
+}
+
+.cust-black {
+    background-color: #363636;
+}
+
+.mont-700{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.mont-500{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;  
+}
+
+.open-sans-font{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.material-icons{
+    display: inline-flex;
+    vertical-align: top;
+}
+
+.col-vert{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 12px;
+}
+
+.custom-line-height{
+    line-height: 14px !important;
+}
+
+.icon-size-med {
+    font-size: 35px!important;
+}
+
+nav i{
+    margin-left: 4rem!important;
+}
+
+nav {
+    height: 100px!important;
+}
+
+.nav-wrapper {
+    height: 100px!important;
+    align-items: center;
+   
+}
+
+nav ul {
+    position: relative;
+    top: 20px;
+}
+
+
+
+.top-font{
+    font-size: 12px;
+}
+
+.ul-center {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul a {
+    font-size: 14px;
+}
+
+/* LANDING PAGE PART */
+.land-bg{
+    position: relative;
+    background: url(../img/pscasi.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.primary-overlay{
+    background: rgba(0,0,0,0.57);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+
+.land-div {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+.landing-head {
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+.land-p {
+    font-size: 24px;
+    margin-bottom: 3rem;
+}
+
+.btn-div a {
+    font-size: 18px;
+    text-transform: none!important;
+}
+
+a.btn{
+    border-radius: 10px!important;
+    width: 200px;
+    
+}
+
+.learn-btn:hover {
+    background-color: #FC2727!important;
+    color: white!important;
+}
+
+.outlined {
+    background-color: transparent!important;
+    border: white solid 2px ;
+    margin-left: 2.5rem;
+}
+
+.outlined:hover {
+    background-color: #E9B64B!important;
+    color: black!important;
+    border: none!important
+}
+
+/* NAVBAR MAIN PART */
+
+.nav-main-cont {
+    position: relative;
+    bottom: 4.5rem;
+}
+
+.ul-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-wrapper a {
+    font-size: 18px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/* SECTION: ABOUT US */
+.corp-head {
+    font-size: 28px;
+}
+
+.corp-p {
+    font-size: 18px;
+    line-height: 212%;
+}
+
+.about-cube {
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-gap: 30px;
+}
+
+.about-box-1 {
+    background-image: url(../img/pscasi-box1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.about-box-2 {
+    background-image: url(../img/pscasi-box2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-title, .about-title span {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+/* SECTION: TEAMWORK */
+.team-head, .team-head span {
+    font-size: 18px;
+}
+
+.container.flex{
+    display: flex!important;
+    flex-wrap: wrap!important;
+}
+
+.flex {
+    display: flex!important;
+    flex-wrap: wrap!important;
+}
+
+.team-box1 {
+    padding: 5rem!important;
+}
+
+.team-box2 {
+    background-image: url(../img/pscasi-team.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.primary-overlay-team {
+        background: rgba(233,182,75,0.58);
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow:hidden;
+    
+}
+
+/* SECTIOB: PROGRAMS */
+.prod-head1, .prod-head2 {
+    font-size: 24px;
+}
+
+.prod-head2 {
+    line-height: 160%;
+}
+
+.prod-p1 {
+    line-height: 200%;
+}
+
+.fab-box1 {
+    z-index: -1;
+    width: 300px;
+    height: 180px;
+    position: absolute;
+    margin-top: 4.5rem;
+}
+
+.fab-box2 {
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/pscasi_finishes.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: 6rem;
+}
+
+.program-sec {
+    margin-bottom: 5rem;
+    margin-top: 7rem;
+}
+
+.strategy-head {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.material-symbols-rounded {
+    font-size: 2.5rem!important;
+    
+}
+
+.icon-div {
+    display: flex;
+}
+
+
+.strategy-p {
+    margin-left: 2rem;
+}
+
+
+/* SECTION: CERTIFICATIONS */
+
+.first-slide, .second-slide, .third-slide {
+    position: relative;
+    background: url(../img/pscasi-certif.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.certif-overlay{
+    background: rgba(54,54,54,0.84);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    padding: 3rem;
+}
+
+.certif-head {
+    font-size: 35px!important;
+    margin-bottom: 10px!important;
+}
+
+.certif-p {
+    font-size: 18px!important;
+    margin-bottom: 0px!important;
+}
+
+.certif-img img {
+    width: 600px!important;
+    margin-top: 20px;
+}
+
+.certif-sec .carousel-slider {
+    height: 750px!important;
+}
+
+.second-slide  img{
+    height: 500px!important;
+}
+
+.third-slide img {
+    height: 360px!important;
+    width: 900px!important;
+    position: relative;
+    top: 70px;
+}
+
+/* SECTION: MACHINES */
+
+.icon-container {
+    position: absolute;
+    top: 50%;
+    left: -6px;
+    /* font-size: 24px!important; */
+    height: 35px;
+    width: 35px;
+    background-color: #E9B64B;
+    z-index: 0;
+    text-align: center;
+    line-height: 1.3;
+    cursor: pointer;
+    transition: .3s;
+    width: 80px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container-right {
+    position: absolute;
+    top: 50%;
+    right: -6px;
+    font-size: 24px!important;
+    height: 35px;
+    width: 35px;
+    background-color: #E9B64B;
+    z-index: 0;
+    text-align: center;
+    line-height: 1.3;
+    cursor: pointer;
+    transition: .3s;
+    width: 80px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-container:hover, .icon-container-right:hover {
+    background-color: #363636;
+}
+
+.icon-container:hover i, .icon-container-right:hover i {
+    color: #E9B64B;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 0px 10px ;
+}
+
+.slick-dots li button {
+    font-size: 0px!important;
+    height: 12px;
+    width: 12px;
+    background-color: #363636;
+    border-radius: 50%;
+    border: none;
+    transition: .3s;
+}
+
+.slick-dots .slick-active button {
+    background-color: #E9B64B;
+    height: 15px;
+    width: 15px;
+}
+
+.machine-img  {
+    height: 350px ;
+    display: flex;
+    justify-content: center;
+}
+
+.slick-list {
+    z-index: -1;
+}
+
+.machine-img img {
+    height: 310px;
+}
+
+.machine-card .card-panel {
+    display: flex;
+    justify-content: center;
+}
+
+.machine-head, .machine-cont-head {
+    font-weight: bolder!important;
+    font-size: 20px;
+}
+
+.machine-cont-head {
+    margin-top: 5px!important;
+}
+
+.machine-head {
+    margin-bottom: 0px!important;
+}
+
+.responsive li {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.machine-sec {
+    margin-top: 0.5rem;
+    margin-bottom: 5rem;
+}
+
+.machine-sec .about-title {
+    margin-bottom: 3rem!important;
+}
+
+ul.slick-dots {
+    width: 100%!important;
+    text-align: center!important;
+}
+
+/* SECTION: GOOGLE MAP */
+.section-map {
+    position: relative;
+    height: 80vh;
+}
+
+#googlemap {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+/* SECTION: FOOTER */
+.page-footer .container {
+        width: 80%!important;
+}
+
+.light, .page-footer .footer-copyright {
+    background-color:#E9B64B;
+}
+
+.f-loc{
+    font-size: 32px!important;
+}
+
+.main-loc {
+    font-size: 24px;
+}
+
+.loc2 {
+
+    font-size: 24px;
+    margin-top: 0px!important;
+    margin-bottom: 8px;
+    color: #EDF0F5!important;
+
+}
+
+.loc-description {
+    font-size: 16px!important;
+    line-height: 177.2%;
+}
+
+.foot-link ul {
+    display: flex;
+}
+
+.foot-link li {
+    margin-right: 18px;
+}
+
+.foot-link a {
+    color: white!important;
+}
+
+.hide-icon {
+    font-size: 19px!important;
+    display: none;
+}
+
+.box a:focus{
+    background-color: #FA8B56!important;
+}
+
+.btn-font {
+    font-size: 18px;
+}
+
+
+
+
+/* FIXED BUTTON */
+
+.action {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: #E9B64B;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.action:hover {
+    background-color: #DFA425;
+    transition: 0.3s;
+}
+
+.action span {
+    position: relative;
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em!important;
+    transition: 0.3s ease-in-out ;
+}
+
+.action.present span {
+    transform: rotate(135deg);
+    z-index: 90!important;
+}
+
+.action ul {
+    position: absolute;
+    bottom: 55px;
+    background-color: #f7f7f7;
+    min-width: 250px;
+    right: 0rem;
+    z-index: 5;
+    padding: 20px;
+    border-radius: 10px;
+    visibility: hidden;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.action ul li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.action ul li:hover {
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+
+.action.present ul {
+    bottom: 65px;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s;
+
+}
+
+
+
+
+/* ////// MEDIA QUERY ////// */
+@media only screen and (max-width: 1433px){
+    .brand-hide{
+        left:50%;
+        -webkit-transform:translateX(-50%);
+        transform:translateX(-50%)}
+        .hide-here{display:none !important
+        }
+
+    /* SECTION: CERTIFICATIONS */
+    
+    .third-slide img {
+        width: 700px!important;
+    }
+}
+
+
+@media only screen and (max-width: 1360px){
+.machine-img  {
+    height: 250px ;
+    display: flex;
+    justify-content: center;
+}
+
+.machine-img img {
+    height: 250px;
+}
+
+
+
+.machine-card .card-panel {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+
+}
+
+@media only screen and (max-width: 1315px){
+    /* SECTION: ABOUT */
+    .corp-p {
+        font-size: 16px ;
+    }
+
+    .corp-head {
+        font-size: 20px ;
+    }
+
+    .about-title {
+        font-size: 35px;
+    }
+}
+
+
+@media only screen and (max-width: 1270px){
+
+    .fab-box1 {
+        width: 250px;
+        height: 130px;
+        margin-top: 4.5rem;
+    }
+    
+    .fab-box2 {
+        width: 250px;
+        height: 150px;
+        left: 6rem;
+    }
+
+    /* SECTION: MACHINES */
+
+
+    .machine-img  {
+        height: 230px ;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .machine-img img {
+        height: 230px;
+    }
+    
+    
+    .machine-head, .machine-cont-head {
+        font-size: 14px!important;
+        
+    }
+}
+
+@media only screen and (max-width: 1128.5px){
+
+    .fab-box1 {
+        width: 210px;
+        height: 100px;
+        margin-top: 4.5rem;
+    }
+    
+    .fab-box2 {
+        width: 210px;
+        height: 120px;
+        left: 6rem;
+    }
+
+    .prod-head2, .prod-head2 span {
+        font-size: 20px!important;
+    }
+  
+    /* SECTION: CERTIFICATIONS */
+    
+    .third-slide img {
+        width: 550px!important;
+        height: 300px!important;
+    }
+
+    /* SECTION: MACHINES */
+    .machine-head, .machine-cont-head {
+        font-size: 14px!important;
+        
+    }
+
+
+}
+
+@media only screen and (max-width: 1025px){
+    .machine-img  {
+        height: 160px ;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .machine-img img {
+        height: 160px;
+    }
+}
+@media only screen and (max-width: 1000px){
+
+        .wrap-collapse {
+            display: none!important;
+        }
+}
+
+@media only screen and (max-width:970px){
+    .fab-box1 {
+        width: 200px;
+        height: 110px;
+        margin-top: 4.5rem;
+    }
+    
+    .fab-box2 {
+        width: 200px;
+        height: 130px;
+        left: 6rem;
+    }
+
+    .prod-head2 {
+        font-size: 20px;
+    }
+
+    /* SECTION: CERTIFICATION */
+    .certif-head {
+        font-size: 28px!important;
+    }
+}
+
+@media only screen and (max-width:952px){
+    i.large {
+        font-size: 5rem!important;
+    }
+        /* SECTION: MACHINES */
+
+
+        .machine-img  {
+            height: 200px ;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .machine-img img {
+            height: 200px;
+        }
+        
+        .machine-card .card-panel {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+        
+        .machine-head, .machine-cont-head {
+            font-size: 16px!important;
+            
+        }
+}
+
+/* COLLAPSE BTN */
+
+@media only screen and (max-width:840px){
+
+    .wrap-collapse {
+        display: block!important;
+        position: relative!important;
+        right: 5rem!important;
+        top: 25px!important;
+    }
+
+    .nav-main-cont {
+        display: none;
+    }
+
+    
+
+    /* SECTION: ABOUT */
+
+    .about-sec .offset-m1 {
+        display: none;
+    }
+
+    .about-sec {
+        padding-top: 0px!important;
+    }
+    
+    .about-sec .col.m5{
+        width: 100%!important;
+        text-align: center;
+    }
+
+    .corp-head {
+        font-size: 24px;
+    }
+
+    .corp-p {
+        font-size: 18px;
+    }
+
+    .about-title, .about-title span {
+        margin-bottom: 3rem;
+        margin-top: 10rem;
+    }
+
+    /* SECTION: PROGRAMS */
+    .program-sec {
+        margin-top: 10.5rem;
+    }
+
+    /* SECTION: CERTIFICATIONS */
+
+    .second-slide  img, .first-slide img {
+        height: 300px!important;
+        width: 400px!important;
+    }
+
+    .second-slide .certif-img{
+        position: relative;
+        top: 100px;
+    }
+
+    .first-slide .certif-img  {
+        position: relative;
+        top: 70px;
+    }
+
+     /* SECTION: MACHINES */
+
+
+     .machine-img  {
+        height: 150px ;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .machine-img img {
+        height: 150px;
+    }
+
+    
+
+}
+
+@media only screen and (max-width:770px){
+
+.hide-icon{
+    display: block;
+}
+
+.program-sec .col.m6.offset-m1, .program-sec .col.m5 {
+    width: 100%;
+}
+
+.program-sec .col.m5 {
+    margin-bottom: 9rem;
+
+}
+
+.prod-head1, .prod-head2 {
+    text-align: center;
+}
+
+.fab-head {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fab-cube {
+    position: relative;
+    right: 20px;
+    margin-top: 2rem;
+}
+
+.prod-head2 {
+    font-size: 24px;
+}
+
+.fab-head span {
+    display: inline!important;
+}
+ 
+    /* SECTION: CERTIFICATIONS */
+    
+    .third-slide img {
+        width: 450px!important;
+        height: 300px!important;
+    }
+
+
+     /* SECTION: MACHINES */
+     .machine-head, .machine-cont-head {
+        font-size: 14px!important;
+        
+    }
+
+
+}
+
+@media only screen and (max-width:710px){
+     /* SECTION: MACHINES */
+     .machine-head, .machine-cont-head {
+        font-size: 12px!important;
+        
+    }
+}
+@media only screen and (max-width:670px){
+    .landing-head {
+        font-size: 28px;
+    }
+
+    .land-p {
+        font-size: 20px;
+    }
+
+    .land-div {
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 640px){
+
+    .footer-copyright .btp {
+        display: none!important;
+    }
+
+
+}
+
+
+
+  
+@media only screen and (max-width:625px){
+    /* SECTION: CERTIFICATIONS */
+    .third-slide img {
+        width: 350px!important;
+        height: 200px!important;
+    }
+
+}
+
+
+@media only screen and (max-width:600px){
+ 
+    .brand-logo img {
+        margin-top: 10px!important;
+    }
+
+    /* SECTIOB: TEAMWORK */
+
+    .team-box2 {
+        height: 100px;
+        width: 100%;
+    }
+
+        /* SECTION: CERTIFICATIONS */
+
+        .second-slide  img, .first-slide img{
+            height: 250px!important;
+            width: 340px!important;
+        }
+
+}
+
+@media only screen and (max-width: 590px){
+    .landing-head {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .land-p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    a.btn {
+        width: 140px;
+        font-size: 12px!important;
+    }
+
+    .outlined {
+        margin-left: 1rem;
+    }
+
+    .land-bg {
+        height: 350px;
+    }
+
+    .land-div {
+        height: 350px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    /* SECTION: ABOUT */
+
+    .about-title, .about-title span {
+        font-size: 30px;
+        margin-bottom: 1.5rem;
+    }
+
+    .corp-p {
+        font-size: 14px;
+    }
+
+    .about-sec .container {
+        width: 85%;
+    }
+
+    .certif-sec .carousel-slider {
+        height: 600px!important;
+    }
+}
+
+
+
+@media only screen and (max-width: 538px){
+    .fab-cube {
+        right: 45px!important;
+        margin-top: 2rem;
+    }
+
+    .pscasi-main-title {
+        display: none;
+    }
+
+    .pscasi-logo-title {
+        display: inline!important;
+    }
+}
+
+@media only screen and (max-width: 490px){
+    /* SECTION: CERTIFICATIONS */
+
+    .second-slide  img, .first-slide img{
+        height: 250px!important;
+        width: 300px!important;
+    }
+
+    .first-slide .certif-img {
+        top: 50px;
+    }
+
+    .second-slide .certif-img {
+        top: 80px;
+    }
+
+    .third-slide img {
+        width: 270px!important;
+        height: 150px!important;
+    }
+
+}
+
+@media only screen and (max-width: 480.5px){
+    /* SECTION: MACHINES */
+    .machine-head, .machine-cont-head {
+        text-align: center;
+        
+    }
+
+    ul.slick-dots {
+        display: none!important;
+    }
+
+    .loc2 {
+        font-size: 18px!important;
+    }
+
+    .main-loc {
+        font-size: 20px!important;
+    }
+}
+@media only screen and (max-width: 445px){
+
+.certif-head {
+    font-size: 25px!important;
+}
+
+.certif-p {
+    font-size: 14px!important;
+}
+
+}
+
+
+@media only screen and (max-width: 426px){
+
+.contact-list-cont .valign-wrapper {
+    justify-content: start;
+    padding-left: 9%;
+    padding-right: 13%;
+}
+
+/* .carousel.carousel-slider .carousel-item p {
+    font-size: 11px!important;
+} */
+
+.landing-head {
+    font-size: 18px;
+    text-align: center;
+}
+
+.land-p {
+    font-size: 12px;
+    text-align: center;
+    line-height: 200%;
+    margin-bottom: 19px!important;
+    
+}
+
+a.btn {
+    width: 124px;
+    font-size: 12px!important;
+    padding: 0px!important;
+}
+
+/* SECTION: ABOUT */
+    .corp-head, .team-head {
+        font-size: 18px;
+    }
+
+    .about-title, .about-title span {
+        font-size: 24px;
+    }
+
+    /* SECTION: TEAMWORK */
+
+    .corp-p, .team-p{
+        font-size: 12px;
+    }
+
+    .team-box1 {
+        padding: 2rem!important;
+    }
+
+       /* SECTION: CERTIFICATIONS */
+
+       .second-slide  img, .first-slide img{
+        height: 200px!important;
+        width: 250px!important;
+    }
+
+    .second-slide .certif-head, .first-slide .certif-head{
+        font-size: 28px!important;
+    }
+
+    .second-slide .certif-img{
+        position: relative;
+        top: 50px;
+    }
+
+    .first-slide .certif-img {
+        top: 65px;
+    }
+
+}
+
+
+@media only screen and (max-width: 390px){
+
+    a.btn {
+        width: 113px!important;
+        font-size: 10px!important;
+    }
+
+    .strategy-head {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    /* SECTION: CERTIFICATIONS */
+
+    .third-slide img {
+        width: 260px!important;
+        height: 150px!important;
+    }
+
+ 
+}
+
+@media only screen and (max-width: 370px){
+    a.btn {
+        width: 92px!important;
+    }
+
+    .third-slide img {
+        width: 230px!important;
+        height: 150px!important;
+    }
+
+    .first-slide .certif-head {
+        font-size: 20px!important;
+    }
+
+    .first-slide .certif-img {
+        top: 90px!important;
+    }
+ 
+
+}
+
+@media only screen and (max-width: 343px){
+    nav .brand-logo{
+        left: 60%;
+    }
+
+    .landing-head {
+        font-size: 16px;
+    }
+
+       /* SECTION: CERTIFICATIONS */
+
+       .second-slide  img, .first-slide img{
+        height: 150px!important;
+        width: 220px!important;
+    }
+
+    .second-slide .certif-img{
+        top: 55px!important;
+    }
+
+    .third-slide img{
+        top: 35px!important;
+    }
+
+    .second-slide .certif-head {
+        font-size: 18px!important;
+    }
+
+    .first-slide .certif-img {
+        top: 30px!important;
+    }
+
+
+    .third-slide img {
+        width: 200px!important;
+        height: 130px!important;
+    }
+
+    .third-slide .certif-head {
+        font-size: 18px!important;
+    }
+
+    .certif-sec .carousel-slider {
+        height: 500px!important;
+    }
+
+
+}
+
