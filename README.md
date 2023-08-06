@@ -1,7 +1,5 @@
 # MTL Group
----
 ## Introduction
----
 This is a prototype website for the MTL group of companies from MTL Holdings Inc. This website provides general information regarding each companies including corporate statement, services, list of clients, location, and contact information.
 
 ### Demo
@@ -11,7 +9,6 @@ MTL Group is live [here](https://naveraraycia.github.io/mtlgroup/)
 Check out the mockup [here](about:blank)
 
 ## Technologies Used
----
 The website is built with the following technologies:
 - HTML
 - CSS
@@ -19,7 +16,6 @@ The website is built with the following technologies:
 - Materialize CSS
 
 ## Features
----
 ### List of companies
 Upon reaching the homepage, people could see the list of companies and navigate through each.
 
