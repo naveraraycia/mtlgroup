@@ -6,7 +6,7 @@ This is a prototype website for the MTL group of companies from MTL Holdings Inc
 MTL Group is live [here](https://naveraraycia.github.io/mtlgroup/)
 
 ### Figma Design
-Check out the mockup [here](about:blank)
+Check out the mockup [here](https://www.figma.com/file/bEh8MGClIKjf1w9KPcF8GV/MTL-Group-of-Companies-Project-High-Fidelity-Layout-NAVERA-CPE41?type=design&node-id=344%3A43&mode=design&t=2fN0aaJTKBmTFqLm-1)
 
 ## Technologies Used
 The website is built with the following technologies:
